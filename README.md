@@ -34,7 +34,7 @@
     * hello.svg
   * /myClass
     * SVGurl2Png.py
-    * png2NBPCR.py
+    * png2NBPOCR.py
     * json_ctrl.py
     * util.py
     * __init__.py
