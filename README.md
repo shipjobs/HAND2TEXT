@@ -12,7 +12,7 @@
   * 언어: Python 3.8.3 64bit
   * 운영체제: Windows 10
   * 작업 환경 : Visual Studio Code
-  * 주요 라이브러리
+
 * 구현 기능 및 실행 순서
   * Excel 에 기록된 image(SVG) 파일이 담긴  url 정보를 읽기
   * 확보된 svg url 정보를 기초로, NBP OCR API 을 사용할수 있는 포멧이 jpg 또는 png 파일로 변환 (본인은 png)
