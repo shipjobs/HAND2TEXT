@@ -36,8 +36,8 @@ H2Wconfonfiguration.read_svg_from_URL_save_png( URLlist = Sheet_Excel_Data  , sa
 # [3] 저장된 png 이미지로 부터 NBP OCR Service 이용하기
 #------------------------------------------------------------------------------------
 #1. OCR 사용 정보
-api_GW_url     = 'https://3a3d0f78582b4a09b6a0f243d3278715.apigw.ntruss.com/custom/v1/9243/0d0568b38429c576171f867783373a9c981dd0444cbb7854b50412b119d992d5/general'
-secret_key     = 'T0RtWXVFTXh1dXBaZVRMalRsQ0R5cERIWGdEUldvaGQ='
+api_GW_url     = '비공개'
+secret_key     = '비공개'
 
 #2. NBP OCR 정보 설정
 #2-1. png2NBPOCR 내 Create_Json 데이터 클래스 생성.. 
