@@ -1,7 +1,7 @@
 ### **SVG 이미지 NBP OCR 적용해서 Json (텍스트, 좌표) 으로 기록 하**기
 
 * 목적 : 손글씨 자동 채점을 위한 정답 영역 추출 및 텍스트화
-* 작성자 : Insung-Lee
+* 작성자 : Insung-Lee  (https://shippauljobs.blogspot.com/)
 * 작성일 : 2021.06.10
 
 ---
