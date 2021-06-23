@@ -28,7 +28,7 @@ class cSVG2JSON:
   fromNBP_json = {} # 파일명 : svg 경로  
   #XXXX Dict[str] = field(default_factory= Dict) 
  
-#NAVER OCR Json - 데이터 전달 포맷 구조
+#NAVER OCR Json - 데이터 전달 포맷 구조   
 #-------------------------------------------------------------------------------
 request_json = {
     'images': [
@@ -67,7 +67,7 @@ class png2NBPOCR:
     
     #저장된 png 이미지 경로로  NBP OCR GW 에 요청 하여, json 파일 구해오기
     #모든 정보는 데이터 클래스 "cSVG2JSON" 저장 하자 
-    def get_json_from_OCR(self, cSVG2JSON): 
+    def get_json_from_NBP_OCR(self, cSVG2JSON): 
     
         for index , file_key in enumerate(self.dataClass_Svg2Json.img_source):
 
@@ -98,4 +98,12 @@ class png2NBPOCR:
 
         return self.dataClass_Svg2Json  #소스 파일명, 파일 이미지 경로, json 파일명, 생성된 json 파일 저장 경로
         
-            
+
+
+    # 네트워크 연결이 되지 않는 경우, 기 저장된 Json 파일을사용하여 데이터 채우기
+    #  - NBP OCR 서버에 접근이 되지 않는 경우  (보안 등)
+    #  - 네트워크 장애
+    def get_json_from_Localhost(self, cSVG2JSON):
+        print("get_json_from_Localhost")
+
+        
