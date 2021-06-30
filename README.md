@@ -94,4 +94,12 @@
     # 5. gtk2-runtime-2.24.33-2021-01-30-ts-win64.exe 설치
     #   > https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer
     #-----------------------------------------------------
+    
+    #-----------------------------------------------------
+    ## Open source OCR : Tesseract 설치   * Cloud 를 사용하지 않는 경우
+    # 6. Tesseract at UB Mannheim
+    #   > https://github.com/UB-Mannheim/tesseract/wiki 
+    #-----------------------------------------------------
+        
+    
     ```
